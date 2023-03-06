@@ -1,0 +1,2 @@
+#!/bin/bash
+ntpdate 10.25.108.25

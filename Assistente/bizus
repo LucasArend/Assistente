@@ -1,0 +1,15 @@
+1 metodo entrar na pasta
+echo -e "USERNAME\nWORKGROUP\nPASSWORD\n" | gio mount smb://<server>/<share>
+
+2 metodo entrar na pasta
+Create a file in your home directory. For example at /home/morbius/.servercreds
+
+Into that file enter your credentials. You must specify the user name, workgroup, and password - one per line
+<username>
+<workgroup>
+<password>
+Then your gio command would look like this:
+gio mount smb://<server>/<share> < /home/morbius/.servercreds
+
+Ao montar utilizando gio, ele vai estar no caminho /run/user/<normalmente 0>/gvfs/
+
