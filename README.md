@@ -2,7 +2,7 @@
 </p> -->
 
 <h2 align="center">
-  aSSISTENTE • 🤖
+  ASSISTENTE • 🤖
 </h2>
 
 Script feito durante os anos no quartel que permitiram agilizar as tarefas do time técnico em computadores linux,
